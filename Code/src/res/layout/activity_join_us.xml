@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".JoinUs">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="1. Tempat Lahir (sesuai Ijazah)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tempatlahir"
+            android:hint="Tulis tempat lahir" />
+
+
+        <TextView
+            android:text="2. Tanggal lahir (sesuai Ijazah)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/tanggallahir"
+            android:hint="Tanggal / Bulan / Tahun" />
+
+        <TextView
+            android:text="3. Jenis Kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/userjeniskelamin"
+            android:hint="Tulis laki-laki, atau perempuan" />
+
+        <TextView
+            android:text="4. Golongan Darah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/usergolongandarah"
+            android:hint="Tulis A atau, B atau, O atau, AB" />
+
+        <TextView
+            android:text="5. Suku asal Marga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/usersukuasalmarga"
+            android:hint="Tulis Nama Belakang" />
+
+        <TextView
+            android:text="6. Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userdesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userkecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userkabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userpropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userkodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/usernohp"
+            android:hint="Masukan Nomor telepon" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:hint="Retype Your Email" />
+
+        <TextView
+            android:text="6. Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/userstatus"
+            android:hint="Status anda saat ini : " />
+
+        <TextView
+            android:text="8. Agama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/useragama"
+            android:hint="Tulis Agama Anda" />
+
+        <TextView
+            android:text="9. Asal SMA/SMK/Sederajat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/userasalsma"
+            android:hint="Tulis asal sekolah" />
+
+        <TextView
+            android:text="10. Alamat Sekolah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/asdesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/askecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/askabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/aspropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/askodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="11. Nama Ayah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/fatnama"
+            android:hint="Tulis nama Ayah" />
+
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatdesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatkecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatkabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatpropinsi"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatkodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/fatnohp"
+            android:hint="Masukan Nomor telepon Ayah" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/fatemail"
+            android:hint="Tulis Email Ayah" />
+
+        <TextView
+            android:text="Pendidikan Ayah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/fatpendidikan"
+            android:hint="Masukan Pendiikan Ayah" />
+
+        <TextView
+            android:text="Agama Ayah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/fatagama"
+            android:hint="Masukan Agama Ayah" />
+
+        <TextView
+            android:text="12. Nama Ibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ibunama"
+            android:hint="Tulis nama Ibu" />
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibudesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibukecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibukabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibupropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibukodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/ibunohp"
+            android:hint="Masukan Nomor telepon Ibu" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/ibuemail"
+            android:hint="Tulis Email Ibu" />
+
+        <TextView
+            android:text="Pendidikan Ibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ibupendidikan"
+            android:hint="Masukan Pendiikan Ibu" />
+
+        <TextView
+            android:text="Agama Ibu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/ibuagama"
+            android:hint="Masukan Agama Ibu" />
+
+        <TextView
+            android:text="13. Nama Wali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/wlnama"
+            android:hint="Tulis nama Wali" />
+
+
+        <TextView
+            android:text="Alamat Rumah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="         -Desa : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wldesa"
+            android:hint="Tulis Desa" />
+
+        <TextView
+            android:text="         -Kecamatan : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlkecamatan"
+            android:hint="Tulis Kecamatan" />
+
+        <TextView
+            android:text="         -Kabupaten : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlkabupaten"
+            android:hint="Tulis Kabupaten" />
+
+        <TextView
+            android:text="         -Propinsi : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlpropinsi"
+            android:hint="Tulis Propinsi" />
+
+        <TextView
+            android:text="         -Kode Pos : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlkodepos"
+            android:hint="Masukan Kode Pos" />
+
+        <TextView
+            android:text="         -Nomor Hp : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/wlnohp"
+            android:hint="Masukan Nomor telepon Wali" />
+
+        <TextView
+            android:text="         -Alamat Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/wlemail"
+            android:hint="Tulis Email Wali" />
+
+        <TextView
+            android:text="Pendidikan Wali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/wlpendidikan"
+            android:hint="Masukan Pendiikan Wali" />
+
+        <TextView
+            android:text="Agama Wali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:textColor="@color/colorPrimaryDark2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/wlagama"
+            android:hint="Masukan Agama Wali" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Kirim Data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/krimdata"
+                android:layout_weight="1" />
+
+            <Button
+                android:visibility="gone"
+                android:text="Ne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nex"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
